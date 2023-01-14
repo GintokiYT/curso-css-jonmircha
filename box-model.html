@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caja en CSS</title>
+
+    <link rel="stylesheet" href="css/box-model.css">
+</head>
+<body>
+    <h1>Modelo de caja en CSS</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio repellendus dignissimos, deleniti hic vel reiciendis temporibus nisi dolor nostrum omnis doloribus explicabo consequuntur! Sit repellat, soluta quia velit officia veritatis?
+    </p>
+    <hr>
+    <div class="caja-uno">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat harum aliquid. Voluptas vitae doloremque, ullam, alias odio sed minima quo libero mollitia doloribus, incidunt voluptate labore perferendis cum tempora!
+    </div>
+    <div class="caja-dos">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quaerat harum aliquid. Voluptas vitae doloremque, ullam, alias odio sed minima quo libero mollitia doloribus, incidunt voluptate labore perferendis cum tempora!
+    </div>
+
+    <h2>Cajas de Línea VS Cajas de bloque</h2>
+    <span class="caja-linea">Esto es una caja de línea</span>
+    <span>Esto es un span</span>
+    <div class="caja-bloque">Esto es una caja de bloque</div>
+    <hr>
+    <h2>Propiedad Display</h2>
+    <div class="caja-none">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, voluptates. Porro, quo. Deserunt, corporis voluptatem. Nihil officiis repellat assumenda in commodi! Magnam nostrum rem ullam, dolor laborum quibusdam officia fugiat.
+    </div>
+    <span class="caja-linea-bloque">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur quibusdam non dignissimos similique pariatur, modi reiciendis quia eveniet adipisci optio nesciunt a, cupiditate quam ex nemo cumque neque ratione!
+    </span>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione debitis impedit placeat numquam quas minus, iure a nesciunt, quisquam esse explicabo obcaecati beatae optio inventore quasi cumque minima officia rerum.
+    </p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <table>
+        <tr>
+            <td>Celdas 1</td>
+            <td>Celdas 2</td>
+            <td>Celdas 3</td>
+        </tr>
+        <tr>
+            <td>Celdas 4</td>
+            <td>Celdas 5</td>
+            <td>Celdas 6</td>
+        </tr>
+        <tr>
+            <td>Celdas 7</td>
+            <td>Celdas 8</td>
+            <td>Celdas 9</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Propiedad Visibility</h2>
+    <div class="caja-none">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laborum esse consequatur repellendus aliquam. Saepe modi vitae culpa ut iure, in recusandae veniam repellat itaque reprehenderit nemo tempora cupiditate dolorem?
+    </div>
+    <div class="caja-hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis modi eius libero, architecto illum minima temporibus ea optio omnis ipsa consectetur perferendis? Quod molestias libero iure corrupti, praesentium facilis nam!
+    </div>
+    <hr>
+    <h2>Propiedad Overflow</h2>
+    <p class="overflow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quos libero odio molestiae recusandae maxime, consequuntur earum ducimus quisquam at veritatis totam magnam est enim temporibus inventore facere necessitatibus cumque.
+    </p>
+    <hr>
+    <h2>Tamaño de caja</h2>
+    <div class="box-sizing-content">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur earum animi saepe, hic fuga in aliquid consectetur iusto vel. Expedita atque corrupti ab rerum pariatur eum, eos odit praesentium placeat?
+    </div>
+    <div class="box-sizing-border">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem temporibus quod modi nesciunt reiciendis esse dolores in quis, rem odit reprehenderit fugiat blanditiis expedita harum at excepturi quasi nemo voluptas.
+    </div>  
+
+    <article class="container-col-3">
+        <section class="item">Seccion 1</section>
+        <section class="item">Seccion 2</section>
+        <section class="item">Seccion 3</section>
+    </article>
+    <hr>
+    <h2>Propiedad Float & Clear</h2>
+    <article class="container-floats">
+        <section class="float-rigth">Este elemento flota a la derecha</section>
+        <section class="float-left">Este elemento flota a la izquierda</section>
+    </article>
+    <div class="clearfix"></div>
+    <article class="">
+        <section class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores mollitia voluptate ratione facere nihil distinctio, tenetur voluptatum alias maiores totam voluptatibus dolores nostrum quibusdam molestias assumenda eum nam placeat provident.</section>
+    </article>
+    <hr>
+    <h2>Colapso de Márgenes Verticales</h2>
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At dignissimos ad aperiam, sapiente aliquam dolores sed rem amet reprehenderit eum nulla, nam corrupti neque a voluptas pariatur ex odit commodi.</div>
+    <article class="margin-collapse">
+        <section>Sección 1</section>
+        <section>Sección 2</section>
+        <section><span>Span 1</span><span>Span 2</span><span>Span 3</span></section>
+    </article>
+    <hr>
+    <h2>Centrado de caja</h2>
+    <article class="sitio-web">
+        <header>Cabecera</header>
+        <main>Contenido Principal</main>
+        <footer>Pie de Página</footer>
+    </article>
+
+
+    <a href="index.html#temario-css">☝️</a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</body>
+</html>
